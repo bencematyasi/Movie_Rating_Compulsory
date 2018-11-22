@@ -5,11 +5,6 @@ dotnet: 2.1
 install:
 - dotnet restore
 
-branches:
-    only:
-    - Bence
-
 script:
  - dotnet build
  - dotnet test MovieReviewTest/MovieReviewTest.csproj
-
